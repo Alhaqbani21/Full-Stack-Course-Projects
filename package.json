@@ -1,0 +1,14 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This repository is created to document the projects completed during my Full Stack Course at Udacity. As I progress through the course, I will be regularly pushing my project code to this repository, showcasing my growing skills and knowledge in full-stack web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alhaqbani",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
