@@ -1,19 +1,19 @@
 setTimeout(() => {
-  console.log('5')
-}, 1000)
+  console.log('5');
+}, 1000);
 
 setImmediate(() => {
-  console.log('4')
-})
+  console.log('4');
+});
 
 setTimeout(() => {
-  console.log('2')
-}, 0)
+  console.log('2');
+}, 0);
 
 process.nextTick(() => {
-  console.log('3')
-})
+  console.log('3');
+});
 
 setTimeout(() => {
-  console.log('1')
-}, 500)
+  console.log('1');
+}, 500);
